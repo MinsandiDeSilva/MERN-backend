@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 connectDB();
-//doing for the streak
+
 // app.use((req, res, next) => {
 //   console.log("HI from the top level middleware");
 //   next();
