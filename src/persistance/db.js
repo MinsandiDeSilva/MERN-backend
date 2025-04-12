@@ -1,7 +1,5 @@
 import mongoose from "mongoose";
 
-//Just keeping up the streak
-
 export const connectDB = async () => {
   try {
     if (!process.env.MONGODB_URI) {
