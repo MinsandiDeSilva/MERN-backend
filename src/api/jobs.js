@@ -11,6 +11,7 @@ jobsRouter
   .get(getAllJobs)
   .post(ClerkExpressRequireAuth({}), AuthorizationMiddleware, createJob);
 
+//this ja the api job
 //api/jobs/:id
 jobsRouter.route("/:id").get(getJobById);
 
